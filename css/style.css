@@ -1,0 +1,118 @@
+.calculator-area {
+  width: 350px;
+  height: 570px;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+}
+
+h1,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.calculator-space {
+  width: 300px;
+  height: 540px;
+  margin: 0 auto;
+  padding-top: 5px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.header-space {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  border-bottom: 3px solid #d26a4f;
+}
+
+.calculator-header {
+  color: #d26a4f;
+  font-size: medium;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.work-screen {
+  width: 330px;
+  height: 100px;
+}
+
+.keyboard::before {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 3px;
+    width: 250px;
+    background-color: #3d3d3d;
+}
+
+.keyboard-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+
+.keyboard-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #3d3d3d;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.grey-bg {
+  background-color: #3d3d3d;
+}
+.orange-bg {
+  background-color: #fa7a57;
+  border: none;
+}
+
+.keyboard-btn-value {
+  font-size: 25px;
+  color: #edeef3;
+}
+
+.keyboard {
+    align-items: center;
+}
+
+.clear-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid #d26a4f;
+}
+
+.clear-btn-value {
+    font-size: 28px;
+    color: #edeef3;
+}
+
+.keyboard-btn:hover,
+.keyboard-btn:focus,
+.clear-btn:hover,
+.clear-btn:focus {
+    border: 2px solid #a3a3a3;
+    background-color: #747474;
+}
+
+.orange-bg:hover,
+.orange-bg:focus {
+    border: 2px solid #bb4a2e;
+    background-color: #d8846f;
+}
